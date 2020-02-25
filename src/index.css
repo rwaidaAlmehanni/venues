@@ -1,0 +1,100 @@
+@import 'style/button.css';
+@import 'style/input.css';
+@import 'style/table.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #E8E8E8;
+}
+
+h1 {
+  color: #1b1b1b;
+  opacity: 0.7;
+  text-shadow: 0.5px 0.5px 1px #1b1b1b;
+}
+
+form {
+  height: 10px;
+}
+
+h4 {
+  padding: 4.3em 1em 0.5em 1em;
+  color: #cdcdcd;
+}
+p {
+  line-height: 0.1;
+}
+
+h3 {
+  margin-top: 1em;
+  text-decoration: underline;
+  color: #6800b3;
+}
+
+h5 {
+  margin-top: 3em;
+  font-weight: bold;
+  color: #1b1b1b;
+}
+
+.center {
+  text-align: center;
+}
+.name-div {
+  padding: 0.5em;
+  margin: 0.5em;
+  text-align: center;
+  border:1px solid #eaeaea;
+}
+
+
+@media only screen and (min-width: 950px)  {
+
+  .flex-div {
+    display: flex;
+  }
+  .participates {
+    width: 40%;
+  }
+  .venue-list {
+    width: 60%;
+    background-color: #fff;
+    display: flex;
+    margin-top: 6em;
+  }
+  .venue-column {
+    width: 20%;
+  }
+  .paper {
+    background-color: #fff;
+    display: flex;
+    margin-top: 6em;
+  }
+
+}
+
+@media only screen and (max-width: 949px)  {
+
+  .flex-div {
+    display: block;
+  }
+  .participates {
+    width: 100%;
+  }
+  .venue-list {
+    width: 100%;
+  }
+  .venue-column {
+    width: 100%;
+  }
+  .paper {
+    width: 110%;
+    background-color: #fff;
+    display: block;
+    margin-top: 10em;
+  }
+
+}
+

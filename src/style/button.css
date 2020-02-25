@@ -1,0 +1,35 @@
+
+@media only screen and (min-width: 950px)  {
+
+.button {
+    margin: 1.5em 1em 1em 1em;
+    width: 180px;
+    border: none;
+    border-radius: 25px;
+    height: 45px;
+    color: #fff;
+    cursor: pointer;
+    font-size: medium;
+    background-color: #6800b3;
+}
+
+}
+
+@media only screen and (max-width: 949px)  {
+
+.button {
+    margin: 0.7em;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    height: 45px;
+    color: #fff;
+    cursor: pointer;
+    font-size: medium;
+    background-color: #6800b3;
+ }
+}
+
+button:focus {
+    outline:0;
+}
